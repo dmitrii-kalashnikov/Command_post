@@ -9,7 +9,12 @@ find ./ -name “views.py”
 find ./ -name “views.*”
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#### File search ( -rin search in this and all nested directories, I insensitive - large and small letters, n numbers strings, --include= in which files are we looking for,dot means in the current directory  )
+#### File search
+- rin search in this and all nested directories 1.1.
+ 1. I insensitive - large and small letters 2.1.
+ 1. n numbers strings 3.1.
+ 1. --include= in which files are we looking for 4.1.
+ 1. dot means in the current directory 5.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 grep -rin –include=”*.py” “charfield” .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
