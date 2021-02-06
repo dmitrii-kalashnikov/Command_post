@@ -414,7 +414,7 @@ ____
 ```
 ![Alt-текст]( LINK "Орк")
 ```
-![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
+![Alt-текст](link "Орк")
 
 ### Дополнительно:
 #### Вставка ссылки с картинкой на ролик с YouTube
@@ -422,7 +422,7 @@ ____
 Пример:        
 ```[![Тут текст](link)](link)```        
 Что мы увидим:        
-[![Тут текст](https://img.youtube.com/vi/RHPYGwVQB2o/0.jpg)](https://youtu.be/RHPYGwVQB2o)        
+[![Тут текст](https:link](link)        
 
 [:arrow_up:Оглавление](#Оглавление)
 ____
