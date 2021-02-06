@@ -1,6 +1,5 @@
-#-------------------------------------------------
 # Introduction to Docker
-Install Docker on Ubuntu 18.04
+#### Install Docker on Ubuntu 18.04
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 sudo apt update
