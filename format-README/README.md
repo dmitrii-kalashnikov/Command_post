@@ -412,9 +412,9 @@ ___
 ____
 ## Вставка изображения
 ```
-![Alt-текст]( https://repository-images.githubusercontent.com/232603801/d5529d80-f0f0-11ea-8938-b8698a47cbed "Орк")
+![Alt-текст]( https://repository-images.githubusercontent.com/232603801/d5529d80-f0f0-11ea-8938-b8698a47cbed ) "Орк")
 ```
-![Alt-текст](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HashiCorp_Logo_no_text.png/1200px-HashiCorp_Logo_no_text.png "Орк")
+![Alt-текст](https://repository-images.githubusercontent.com/232603801/d5529d80-f0f0-11ea-8938-b8698a47cbed  "Орк")
 
 ### Дополнительно:
 #### Вставка ссылки с картинкой на ролик с YouTube
