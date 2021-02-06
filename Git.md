@@ -1,11 +1,11 @@
 # Git commands
 # The most used
 
-git add --all
-git add .
-git commit -m “Add this commit”
-git push
-git status
+##### git add --all
+##### git add .
+##### git commit -m “Add this commit”
+##### git push
+##### git status
 
 git add <file>                  # To add a single file
 git add .                       # To add all files from the current directory
