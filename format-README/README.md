@@ -422,7 +422,9 @@ ____
 Пример:        
 ```[![Тут текст](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org](link)```        
 Что мы увидим:        
-[![Тут текст](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org](link)        
+[![Тут текст](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org (link)
+
+[![Тут текст](https://img.youtube.com/vi/RHPYGwVQB2o/0https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org.jpg)](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org)       
 
 [:arrow_up:Оглавление](#Оглавление)
 ____
