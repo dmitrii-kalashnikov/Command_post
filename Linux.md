@@ -1,10 +1,10 @@
 
-#### File search (views.py -the file we are looking for)
+#### File search ( views.py -the file we are looking for )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 find ./ -name “views.py”
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#### File search (all files with views in the name)
+#### File search ( all files with views in the name )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 find ./ -name “views.*”
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,7 +19,7 @@ find ./ -name “views.*”
 grep -rin –include=”*.py” “charfield” .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#### Best file search (It skips binaries and reads gitignore files and won't look in them)
+#### Best file search ( It skips binaries and reads gitignore files and won't look in them )
 `Highlighting results`
 1. sudo apt update
 1. sudo apt install snapd
