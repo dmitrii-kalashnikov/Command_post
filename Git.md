@@ -1,17 +1,13 @@
 # Git commands
-* The most used
+* The most used:
 
 ##### git add --all
 ##### git add .
 ##### git commit -m “Add this commit”
 ##### git push
 ##### git status
-
-##### git add <file>                  # To add a single file
-##### git add .                       # To add all files from the current directory
-##### git commit -m "commit message"  # Important: Git commit saves your changes only locally.
-##### git push <remote> <branch-name> # Send your changes to the remote server
-##### git pull <remote>               # The git pull command is used to get updates from the remote repo.
+##### git push <remote> <branch-name>
+##### git pull <remote>
 
 
 #### This command sets the author name and email address respectively to be used with your commits.
