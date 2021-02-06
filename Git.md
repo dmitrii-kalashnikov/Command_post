@@ -1,5 +1,5 @@
 # Git commands
-# The most used
+* The most used
 
 ##### git add --all
 ##### git add .
