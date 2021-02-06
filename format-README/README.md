@@ -17,7 +17,7 @@ To describe projects on GitHub, use README.md
 7. [Ссылки](#Ссылки)
 8. [Вставка изображения](#Вставка-изображения)
 9. [Вставка таблиц](#Вставка-таблиц)
-10. [Дополнения](https://github.com/GnuriaN/format-README/blob/master/Дополнения.md)
+10. [Дополнения](https://github.com/kda33/Command_post/blob/main/format-README/Additions.md)
 
 ## Разделительная черта
 При использовании
@@ -402,11 +402,11 @@ ___
 
 Второй вариант записывается так: `[текст ссылки](адрес ссылки)`
 ```
-[sabaka.net](https://mysbook.com)
+[mysbook.com](https://mysbook.com)
 ```
-[sabaka.net](http://sabaka.net)
+[mysbook.com](http://mysbook.com)
 
-[Sabaka(DOT)Net]:http://sabaka.net    
+[Mysbook(DOT)Com]:http://mysbook.com    
 
 [:arrow_up:Оглавление](#Оглавление)
 ____

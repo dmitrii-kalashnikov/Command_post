@@ -6,8 +6,8 @@
 ##### git commit -m “Add this commit”
 ##### git push
 ##### git status
-##### git push <remote> <branch-name>
-##### git pull <remote>
+##### git push remote branch-name
+##### git pull remote
 
 
 #### This command sets the author name and email address respectively to be used with your commits.
