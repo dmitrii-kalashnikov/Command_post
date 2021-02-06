@@ -11,7 +11,7 @@ find ./ -name “views.*”
 
 #### File search
  1. rin search in this and all nested directories
- 1. I insensitive - large and small letters
+ 1. i insensitive - large and small letters
  1. n numbers strings
  1. --include= in which files are we looking for
  1. dot means in the current directory
@@ -20,10 +20,10 @@ grep -rin –include=”*.py” “charfield” .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### Best file search (It skips binaries and reads gitignore files and won't look in them)
-##### Highlighting results
-##### sudo apt update
-##### sudo apt install snapd
-##### sudo snap install ripgrep --classic
+`Highlighting results`
+1. sudo apt update
+1. sudo apt install snapd
+1.  sudo snap install ripgrep --classic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 rg -i “target” .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
