@@ -1,7 +1,9 @@
-# File markup description README.md
+### File markup description README.md
 ### Формат файла README.md
-#### Разметка README.md
+### Разметка README.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To describe projects on GitHub, use README.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Оглавление
 
