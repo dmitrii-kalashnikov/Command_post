@@ -1,4 +1,6 @@
 # File markup description README.md
+# Формат файла README.md
+# Разметка README.md
 To describe projects on GitHub, use README.md
 
 ## Оглавление
@@ -421,8 +423,7 @@ ____
 Описание комбинации `[![Тут текст](адрес до картинки)](ссылка на страничку YouTube)`        
 Пример:        
 ```[![Тут текст](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org](link)```        
-Что мы увидим:        
-[![Тут текст](https://img.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org.jpg)](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org)
+
 [:arrow_up:Оглавление](#Оглавление)
 ____
 ## Вставка таблиц
