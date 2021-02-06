@@ -18,8 +18,9 @@ git pull <remote>               # The git pull command is used to get updates fr
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git config –global user.name “[kda33]”
 git config –global user.email “[kda33@gmail.com]”
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 #### This command is used to start a new repository.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git init [repository name]
 
 #### This command is used to obtain a repository from an existing URL.
