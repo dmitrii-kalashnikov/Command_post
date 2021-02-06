@@ -412,17 +412,17 @@ ___
 ____
 ## Вставка изображения
 ```
-![Alt-текст]( LINK "Орк")
+![Alt-текст]( https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HashiCorp_Logo_no_text.png/1200px-HashiCorp_Logo_no_text.png "Орк")
 ```
-![Alt-текст](link "Орк")
+![Alt-текст](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HashiCorp_Logo_no_text.png/1200px-HashiCorp_Logo_no_text.png "Орк")
 
 ### Дополнительно:
 #### Вставка ссылки с картинкой на ролик с YouTube
 Описание комбинации `[![Тут текст](адрес до картинки)](ссылка на страничку YouTube)`        
 Пример:        
-```[![Тут текст](link)](link)```        
+```[![Тут текст](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org)](link)```        
 Что мы увидим:        
-[![Тут текст](https:link](link)        
+[![Тут текст](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=21104s&ab_channel=freeCodeCamp.org](link)        
 
 [:arrow_up:Оглавление](#Оглавление)
 ____
