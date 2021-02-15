@@ -1,6 +1,6 @@
 ### [Search](https://github.com/kda33/Command_post/blob/main/Linux/Search.md)
-### Checking_disks_file_sys
-### Deb_packages
-### View file contents
-### Manipulation with text and file content
-### APT - a package management tool for Debian and Ubuntu
+### [Checking_disks_file_sys](https://github.com/kda33/Command_post/blob/main/Linux/Checking_disks_file_sys.md)
+### [Deb_packages](https://github.com/kda33/Command_post/blob/main/Linux/Deb_packages.md)
+### [View file contents](https://github.com/kda33/Command_post/blob/main/Linux/View_file_contents.md)
+### [Manipulation with text and file content](https://github.com/kda33/Command_post/blob/main/Linux/Text_file_cont.md)
+### [APT - a package management tool for Debian and Ubuntu](https://github.com/kda33/Command_post/blob/main/Linux/APT.md)
