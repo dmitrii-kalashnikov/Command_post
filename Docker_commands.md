@@ -21,6 +21,12 @@ docker inspect kda33
 cd var/lib/docker
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#### Docker volumes ( /root/docker/redis - путь на физическом сервере хоста, /data/ - путь внутри контейнера в которую нужно эту папку замонтировать )
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker run -- name redis --rm -v /root/docker/redis:/data/ -d redis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#### Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker run hello-world
 
