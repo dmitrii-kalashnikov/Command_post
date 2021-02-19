@@ -14,6 +14,13 @@ sudo usermod -aG docker $USER
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#### Inspection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker inspect kda33
+
+cd var/lib/docker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker run hello-world
 
