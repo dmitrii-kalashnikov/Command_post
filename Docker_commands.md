@@ -90,3 +90,14 @@ docker-compose -f prod.yml run --rm web python manage.py migrate                
 docker-compose -f prod.yml run --rm web python manage.py makemigrations            #Makemigrations for database
 docker run -v `pwd`:/data --rm -it nameofimage ./                                  #Forward the current directory to this data directory in the container
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#### Docker-compose
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker-compose build - собрать проект
+docker-compose up -d - запустить проект в демон режиме
+docker-compose down  - остановить проект
+docker-compose logs -f [service name] - посмотреть логи сервиса
+docker-compose ps - вывести список контейнеров
+docker-compose exec [service name] [command] - выполнить команду
+docker-compose images - список образов
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
