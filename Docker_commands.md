@@ -1,11 +1,4 @@
-# Introduction to Docker
 #### Install Docker on Ubuntu 18.04
-
-#### Sudo user
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sudo usermod -aG docker $USER
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 sudo apt update
@@ -19,6 +12,11 @@ sudo usermod -aG docker $USER
 >>>logout/login<<<
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#### Sudo user
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sudo usermod -aG docker $USER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### Inspection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
