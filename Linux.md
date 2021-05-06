@@ -37,3 +37,9 @@ systemctl list-dependencies multi-user.target
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sudo netstat -pnltu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#### Copy some file from Server to local mashine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+scp -i "insert key file here" -r "insert ec2 instance here" "your local directory"
+scp -i amazon.pem -r ec2-user@ec2-##-##-##:/source/dir /destination/dir
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
