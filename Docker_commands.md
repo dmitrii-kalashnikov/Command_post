@@ -83,7 +83,7 @@ docker load -i arch_name.tar
 docker rm -f $(docker ps -aq)        # Delete all Containers
 docker rmi -f $(docker images -q)    # Delete all Images
 docker system prune
-docker system prune -a               # Delete not used containers and images
+docker system prune -a -f            # Delete not used containers and images(-f No need to confirm 'y/n')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### For Django
