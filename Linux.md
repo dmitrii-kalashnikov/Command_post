@@ -1,11 +1,10 @@
 #### Getting the Size of a Directory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sudo du -sh /var
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Output
 85G	/var
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### File search ( views.py -the file we are looking for )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 find ./ -name “views.py”
