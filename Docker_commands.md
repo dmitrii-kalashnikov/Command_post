@@ -86,6 +86,11 @@ docker system prune
 docker system prune -a -f            # Delete not used containers and images(-f No need to confirm 'y/n')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#### Remove all unused network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker network prune -f ( -f flag to bypass the prompt. )
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 #### For Django
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker-compose -f prod.yml run --rm web python manage.py collectstatic --no-input
