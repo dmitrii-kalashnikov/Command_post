@@ -62,6 +62,10 @@ docker tag kda33_ubuntu kda33_ubuntu-PROD:v2
 docker rm   # delete container
 docker rmi  # delete image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Run docker always
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sudo systemctl enable docker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ####  UPDATE IMAGE
 ~~~~~~~~~~~~~
