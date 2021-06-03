@@ -94,6 +94,14 @@ docker system prune -a -f            # Delete not used containers and images(-f 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker network prune -f ( -f flag to bypass the prompt. )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Show all volumes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker volume ls
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Remove volume
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker volume rm user_pgdata
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### For Django
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
