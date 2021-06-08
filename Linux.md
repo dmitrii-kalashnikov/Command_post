@@ -49,3 +49,7 @@ sudo netstat -pnltu
 scp -i "insert key file here" -r "insert ec2 instance here" "your local directory"
 scp -i amazon.pem -r ec2-user@ec2-##-##-##:/source/dir /destination/dir
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Copy some file from Local mashine to Server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+scp -i /path/to/your/.pemkey -r /copy/from/path user@server:/copy/to/path
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
