@@ -53,3 +53,7 @@ scp -i amazon.pem -r ec2-user@ec2-##-##-##:/source/dir /destination/dir
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 scp -i /path/to/your/.pemkey -r /copy/from/path user@server:/copy/to/path
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Add the public key to the authorized_keys
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cat <your_public_key_file> >> ~/.ssh/authorized_keys
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
