@@ -1,3 +1,26 @@
+#### Kill and Delete Containers and Images
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker rm -f $(docker ps -aq)        # Delete all Containers
+docker rmi -f $(docker images -q)    # Delete all Images
+docker system prune
+docker system prune -a -f            # Delete not used containers and images(-f No need to confirm 'y/n')
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### how do you disable auto-restart on a container?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker update --restart=no my-container
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Remove all unused network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker network prune -f ( -f flag to bypass the prompt. )
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Show all volumes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker volume ls
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Remove volume
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker volume rm user_pgdata
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### Install Docker on Ubuntu 18.04
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
@@ -82,26 +105,6 @@ docker save image:tag > arch_name.tar
 docker load -i arch_name.tar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#### Kill and Delete Containers and Images
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-docker rm -f $(docker ps -aq)        # Delete all Containers
-docker rmi -f $(docker images -q)    # Delete all Images
-docker system prune
-docker system prune -a -f            # Delete not used containers and images(-f No need to confirm 'y/n')
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-#### Remove all unused network
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-docker network prune -f ( -f flag to bypass the prompt. )
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#### Show all volumes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-docker volume ls
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#### Remove volume
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-docker volume rm user_pgdata
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### For Django
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
