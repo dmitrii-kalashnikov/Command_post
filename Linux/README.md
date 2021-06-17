@@ -1,3 +1,4 @@
+### [Debug](https://github.com/kda33/Command_post/blob/main/Linux/Search.md)
 ### [Search](https://github.com/kda33/Command_post/blob/main/Linux/Search.md)
 ### [Checking_disks_file_sys](https://github.com/kda33/Command_post/blob/main/Linux/Checking_disks_file_sys.md)
 ### [Deb_packages](https://github.com/kda33/Command_post/blob/main/Linux/Deb_packages.md)
