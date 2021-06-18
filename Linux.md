@@ -1,3 +1,8 @@
+#### So, for example, if the data was in / home / myuser / myfolder at the time from / home / myuser / the command was run.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mv myfolder/* .
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 #### Getting the Size of a Directory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sudo du -sh /var
