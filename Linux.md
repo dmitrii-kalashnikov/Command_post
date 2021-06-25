@@ -1,3 +1,7 @@
+#### Copy all from source to dest folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cp -a /source/. /dest/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### So, for example, if the data was in / home / myuser / myfolder at the time from / home / myuser / the command was run.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 mv myfolder/* .
