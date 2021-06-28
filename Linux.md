@@ -6,6 +6,10 @@ cp -a /source/. /dest/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 mv myfolder/* .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### How to add RSA key to authorized_keys file?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cat <your_public_key_file> >> ~/.ssh/authorized_keys
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### Getting the Size of a Directory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
