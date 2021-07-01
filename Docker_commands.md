@@ -1,3 +1,7 @@
+#### This returns only the sha256:... string and nothing else.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker images --no-trunc --quiet nginx:latest
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### Kill and Delete Containers and Images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker rm -f $(docker ps -aq)        # Delete all Containers
