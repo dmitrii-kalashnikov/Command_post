@@ -9,6 +9,28 @@
 ##### git push remote branch-name
 ##### git pull remote
 
+##### Git Magic
+###### To get the latest commit of your repository:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git log -1
+(out) commit 18101e645ee3d9b1de302164bb31f907a8282349 (HEAD -> master, origin/master, origin/HEAD)
+(out) Author: John Doe <john@doe.com>
+(out) Date:   Mon Sep 25 16:29:48 2017 +0200
+(out) 
+(out)     Render magic in front page
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+###### That's great information but quite verbose. Trim it down to just get the hash from the last commit:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git log -1 --pretty=%H
+(out) 18101e645ee3d9b1de302164bb31f907a8282349
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+###### You can even get a shorter version of the hash but I prefer the other one:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git log -1 --pretty=%h
+(out) 18101e6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### This command sets the author name and email address respectively to be used with your commits.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
