@@ -13,7 +13,7 @@ cat <your_public_key_file> >> ~/.ssh/authorized_keys
 
 #### Getting the Size of a Directory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sudo du -sh /var
+sudo du -sh var/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Output
 85G	/var
