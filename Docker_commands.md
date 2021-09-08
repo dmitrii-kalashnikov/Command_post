@@ -1,3 +1,11 @@
+#### Run docker ps every 2 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+watch docker ps -a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Logs every 2 seconds
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+watch docker logs idcontainer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### This returns only the sha256:... string and nothing else.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker images --no-trunc --quiet nginx:latest
