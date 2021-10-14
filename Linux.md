@@ -1,3 +1,11 @@
+#### Grep folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ps -ef | grep name-of-busy-dir
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Showed me the process and the PID (column two).
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sudo kill -15 pid-here
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### Copy all from source to dest folder
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 cp -a /source/. /dest/
