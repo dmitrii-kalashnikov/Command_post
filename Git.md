@@ -62,6 +62,10 @@ git commit -m “[ Type in the commit message]”
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git commit -a
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Git add . && Git -m
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git -am "Refactor"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### This command shows the file differences which are not yet staged.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git diff
@@ -132,6 +136,7 @@ git push [variable name] master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### This command sends the branch commits to your remote repository.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 git push [variable name] [branch]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### This command pushes all branches to your remote repository.
@@ -141,3 +146,13 @@ git push –all [variable name]
 #### This command fetches and merges changes on the remote server to your working directory.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git pull [Repository Link]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Undo changes in file app.py
+##### File state reverted to previous commit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git restore app.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### To see remote repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git remote -v
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
