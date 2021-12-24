@@ -1,12 +1,15 @@
 # Git commands
-* The most used:
 ##### Remote git repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git remote -v
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-##### 
+##### Time machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-git remote -v
+git reflog
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##### Git add and git commit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git commit -am 'text'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##### Git Magic
 ###### To get the latest commit of your repository:
@@ -19,7 +22,6 @@ git log -1
 (out)     Render magic in front page
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ###### That's great information but quite verbose. Trim it down to just get the hash from the last commit:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git log -1 --pretty=%H
