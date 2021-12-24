@@ -1,14 +1,13 @@
 # Git commands
 * The most used:
-
-##### git add --all
-##### git add .
-##### git commit -m “Add this commit”
-##### git push
-##### git status
-##### git push remote branch-name
-##### git pull remote
-
+##### Remote git repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git remote -v
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##### 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git remote -v
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##### Git Magic
 ###### To get the latest commit of your repository:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -61,10 +60,6 @@ git commit -m “[ Type in the commit message]”
 #### This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git commit -a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#### Git add . && Git -m
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-git -am "Refactor"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### This command shows the file differences which are not yet staged.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -151,8 +146,4 @@ git pull [Repository Link]
 ##### File state reverted to previous commit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git restore app.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#### To see remote repository
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-git remote -v
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
