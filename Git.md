@@ -87,6 +87,10 @@ git reset [commit]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git reset –hard [commit]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Push it to the repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git push origin HEAD --force 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### This command lists all the files that have to be committed.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git status
