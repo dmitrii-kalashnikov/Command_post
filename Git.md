@@ -1,4 +1,10 @@
 # Git commands
+
+##### The --graph flag enables you to view your git log as a graph
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git log --oneline --graph
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ##### Remote git repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git remote -v
