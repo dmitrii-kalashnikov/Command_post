@@ -38,7 +38,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: microservice_a .
+          context: .
           file: .challenge/flask_200/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/microservice_a:latest
